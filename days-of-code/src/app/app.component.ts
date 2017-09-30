@@ -9,6 +9,8 @@ import { ChartsPage } from '../pages/charts/charts';
 import { ConfigurationsPage } from '../pages/configurations/configurations';
 import { MyChallengePage } from '../pages/my-challenge/my-challenge';
 import { NewChallengePage } from '../pages/new-challenge/new-challenge';
+import { AboutPage } from '../pages/about/about';
+import { HistoryPage } from '../pages/history/history';
 
 @Component({
   templateUrl: 'app.html'
@@ -31,8 +33,8 @@ export class MyApp {
       { title : 'New Challenge', component: NewChallengePage },
       { title : 'Configurations', component: ConfigurationsPage },
       { title : 'Charts', component: ChartsPage },
-  //    { title : 'History', component: HistoryPage },
-//      { title : 'About', component: AboutPage }
+      { title : 'History', component: HistoryPage },
+      { title : 'About', component: AboutPage }
     ];
 
   }
