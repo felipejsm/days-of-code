@@ -1,6 +1,8 @@
-import { Component } from '@angular/core';
+/*import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-
+*/
+import { Component } from '@angular/core';
+import { NavController, NavParams } from 'ionic-angular';
 /**
  * Generated class for the MyChallengePage page.
  *
@@ -8,7 +10,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+//@IonicPage()
 @Component({
   selector: 'page-my-challenge',
   templateUrl: 'my-challenge.html',
