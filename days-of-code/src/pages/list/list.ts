@@ -5,7 +5,7 @@ import { NavController, NavParams } from 'ionic-angular';
   selector: 'page-list',
   templateUrl: 'list.html'
 })
-export class ListPage {
+export class ListPage { 
   selectedItem: any;
   icons: string[];
   items: Array<{title: string, note: string, icon: string}>;
